@@ -1,0 +1,18 @@
+[package]
+name = "lattivant-event"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "The canonical Lattivant event envelope shared across the AuthZ, AgentTrace and EastWest engines."
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+indexmap.workspace = true
+chrono.workspace = true
+sha2.workspace = true
+hex.workspace = true
+
+[dev-dependencies]
