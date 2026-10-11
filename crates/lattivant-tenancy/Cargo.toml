@@ -1,0 +1,12 @@
+[package]
+name = "lattivant-tenancy"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Tenant isolation and RBAC for the Lattivant platform."
+
+[dependencies]
+lattivant-event = { path = "../lattivant-event" }
+serde.workspace = true
+thiserror.workspace = true
