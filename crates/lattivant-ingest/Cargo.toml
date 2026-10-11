@@ -1,0 +1,19 @@
+[package]
+name = "lattivant-ingest"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Event ingestion: validation, idempotent dedup, quarantine and tenant-scoped queries."
+
+[dependencies]
+lattivant-event = { path = "../lattivant-event" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+sha2.workspace = true
+hex.workspace = true
+indexmap.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
